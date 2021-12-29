@@ -24,7 +24,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let anchorsLabs = [
             Lab(name: "Basic Anchors", viewController: BasicAnchors()),
             Lab(name: "Safe Area Guide", viewController: SafeAreaGuide()),
-            Lab(name: "LayoutMargins", viewController: LayoutMargins())
+            Lab(name: "Layout Margins", viewController: LayoutMargins()),
+            Lab(name: "Spacer Views", viewController: SpacerViews()),
+            Lab(name: "Readeble Content Guide", viewController: ReadebleContentGuide())
         ]
         
         let anchorViewController = MainController(labs: anchorsLabs,

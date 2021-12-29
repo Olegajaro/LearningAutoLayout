@@ -16,6 +16,8 @@ class LayoutMargins: UIViewController {
     }
 
     func setupViews() {
+        navigationItem.title = "Layout Margins"
+        
         let redView = makeView()
         
         view.addSubview(redView)

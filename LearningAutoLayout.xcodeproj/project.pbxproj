@@ -16,6 +16,8 @@
 		10E34854277C8B4F00E2E620 /* BasicAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E34853277C8B4F00E2E620 /* BasicAnchors.swift */; };
 		10E34856277C946B00E2E620 /* SafeAreaGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E34855277C946B00E2E620 /* SafeAreaGuide.swift */; };
 		10E34858277C954200E2E620 /* LayoutMargins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E34857277C954200E2E620 /* LayoutMargins.swift */; };
+		10E3485A277C978600E2E620 /* SpacerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E34859277C978600E2E620 /* SpacerViews.swift */; };
+		10E3485C277C996000E2E620 /* ReadebleContentGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E3485B277C996000E2E620 /* ReadebleContentGuide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		10E34853277C8B4F00E2E620 /* BasicAnchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnchors.swift; sourceTree = "<group>"; };
 		10E34855277C946B00E2E620 /* SafeAreaGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaGuide.swift; sourceTree = "<group>"; };
 		10E34857277C954200E2E620 /* LayoutMargins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutMargins.swift; sourceTree = "<group>"; };
+		10E34859277C978600E2E620 /* SpacerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerViews.swift; sourceTree = "<group>"; };
+		10E3485B277C996000E2E620 /* ReadebleContentGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadebleContentGuide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 				10E34853277C8B4F00E2E620 /* BasicAnchors.swift */,
 				10E34855277C946B00E2E620 /* SafeAreaGuide.swift */,
 				10E34857277C954200E2E620 /* LayoutMargins.swift */,
+				10E34859277C978600E2E620 /* SpacerViews.swift */,
+				10E3485B277C996000E2E620 /* ReadebleContentGuide.swift */,
 			);
 			path = Anchors;
 			sourceTree = "<group>";
@@ -208,8 +214,10 @@
 				10E3484A277C88D200E2E620 /* Factories.swift in Sources */,
 				10E34858277C954200E2E620 /* LayoutMargins.swift in Sources */,
 				10E34854277C8B4F00E2E620 /* BasicAnchors.swift in Sources */,
+				10E3485A277C978600E2E620 /* SpacerViews.swift in Sources */,
 				10E34839277C873700E2E620 /* MainController.swift in Sources */,
 				10E34856277C946B00E2E620 /* SafeAreaGuide.swift in Sources */,
+				10E3485C277C996000E2E620 /* ReadebleContentGuide.swift in Sources */,
 				10E34835277C873700E2E620 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
