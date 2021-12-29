@@ -16,7 +16,7 @@ class CustomView: UIViewController {
     }
     
     private func setupViews() {
-        navigationItem.title = "Custom View"
+        navigationItem.title = "Custom"
         
         let row = RowView()
         

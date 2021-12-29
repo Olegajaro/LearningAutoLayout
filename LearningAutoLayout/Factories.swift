@@ -123,6 +123,12 @@ func makeStackView(withOrientation axis: NSLayoutConstraint.Axis) -> UIStackView
     return stackView
 }
 
+func makeScrollView() -> UIScrollView {
+    let scrollView = UIScrollView()
+    scrollView.translatesAutoresizingMaskIntoConstraints = false
+    
+    return scrollView
+}
 
 extension UIColor {
     static let darkBlue = UIColor(red: 10/255, green: 132/255,
