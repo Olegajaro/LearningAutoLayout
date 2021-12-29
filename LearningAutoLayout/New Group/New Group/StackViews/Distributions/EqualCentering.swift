@@ -15,7 +15,7 @@ class EqualCentering: UIViewController {
         setupViews()
     }
     
-    func setupViews() {
+    private func setupViews() {
         navigationItem.title = "Equal Centring"
         
         let stackView = makeStackView(withOrientation: .vertical)

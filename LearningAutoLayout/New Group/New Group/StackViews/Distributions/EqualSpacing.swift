@@ -15,7 +15,7 @@ class EqualSpacing: UIViewController {
         setupViews()
     }
     
-    func setupViews() {
+    private func setupViews() {
         navigationItem.title = "Equal Spacing"
         
         let stackView = makeStackView(withOrientation: .vertical)

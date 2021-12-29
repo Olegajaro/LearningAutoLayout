@@ -15,7 +15,7 @@ class CHRCFill: UIViewController {
         setupViews()
     }
     
-    func setupViews() {
+    private func setupViews() {
         navigationItem.title = "CHRC - Fill"
         
         let stackView = makeStackView(withOrientation: .vertical)

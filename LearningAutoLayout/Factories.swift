@@ -68,6 +68,7 @@ func makeButton(withText text: String, color: UIColor) -> UIButton {
 
 func makeView(color: UIColor = .red) -> UIView {
     let view = UIView()
+    
     view.translatesAutoresizingMaskIntoConstraints = false
     view.backgroundColor = color
 
@@ -76,6 +77,7 @@ func makeView(color: UIColor = .red) -> UIView {
 
 func makeTextField(withPlaceholderText placeHolderText: String) -> UITextField {
     let textField = UITextField()
+    
     textField.translatesAutoresizingMaskIntoConstraints = false
     textField.placeholder = placeHolderText
     textField.backgroundColor = .orange
@@ -85,6 +87,7 @@ func makeTextField(withPlaceholderText placeHolderText: String) -> UITextField {
 
 func makeImageView(named: String) -> UIImageView {
     let view = UIImageView()
+    
     view.translatesAutoresizingMaskIntoConstraints = false
     view.contentMode = .scaleAspectFit
     view.image = UIImage(named: named)
@@ -99,8 +102,18 @@ func makeImageView(named: String) -> UIImageView {
     return view
 }
 
+func makeSwitch(isOn: Bool) -> UISwitch {
+    let theSwitch = UISwitch()
+    
+    theSwitch.translatesAutoresizingMaskIntoConstraints = false
+    theSwitch.isOn = isOn
+
+    return theSwitch
+}
+
 func makeStackView(withOrientation axis: NSLayoutConstraint.Axis) -> UIStackView {
     let stackView = UIStackView()
+    
     stackView.translatesAutoresizingMaskIntoConstraints = false
     stackView.axis = axis
     stackView.distribution = .fill

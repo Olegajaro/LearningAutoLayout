@@ -15,7 +15,7 @@ class Fill: UIViewController {
         setupViews()
     }
 
-    func setupViews() {
+    private func setupViews() {
         navigationItem.title = "Fill"
         
         let stackView = makeStackView(withOrientation: .vertical)

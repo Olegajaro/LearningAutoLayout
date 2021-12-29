@@ -15,7 +15,7 @@ class FillEqually: UIViewController {
         setupViews()
     }
     
-    func setupViews() {
+    private func setupViews() {
         navigationItem.title = "Fill Equally"
         
         let stackView = makeStackView(withOrientation: .vertical)
