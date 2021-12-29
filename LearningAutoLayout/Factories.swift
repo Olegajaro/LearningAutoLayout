@@ -27,6 +27,13 @@ func makeLabel(withText text: String, size: CGFloat) -> UILabel {
     return label
 }
 
+func makeLabel(withText text: String, size: CGFloat, color: UIColor) -> UILabel {
+    let label = makeLabel(withText: text, size: size)
+    label.backgroundColor = color
+    
+    return label
+}
+
 func makeSecondaryLabel(withText text: String) -> UILabel {
     let label = makeLabel(withText: text, size: 12)
     label.textColor = .gray
@@ -84,11 +91,25 @@ func makeImageView(named: String) -> UIImageView {
 
     // By making the image hug itself a little bit less and less resistant to being compressed
     // we allow the image to stretch and grow as required
-    view.setContentHuggingPriority(UILayoutPriority(rawValue: 249), for: .vertical)
-    view.setContentCompressionResistancePriority(UILayoutPriority(rawValue: 749), for: .vertical)
+    view.setContentHuggingPriority(UILayoutPriority(rawValue: 249),
+                                   for: .vertical)
+    view.setContentCompressionResistancePriority(UILayoutPriority(rawValue: 749),
+                                                 for: .vertical)
 
     return view
 }
+
+func makeStackView(withOrientation axis: NSLayoutConstraint.Axis) -> UIStackView {
+    let stackView = UIStackView()
+    stackView.translatesAutoresizingMaskIntoConstraints = false
+    stackView.axis = axis
+    stackView.distribution = .fill
+    stackView.alignment = .fill
+    stackView.spacing = 8.0
+
+    return stackView
+}
+
 
 extension UIColor {
     static let darkBlue = UIColor(red: 10/255, green: 132/255,

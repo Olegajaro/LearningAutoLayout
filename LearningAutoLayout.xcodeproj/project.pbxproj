@@ -21,6 +21,11 @@
 		10E3485E277C9BFA00E2E620 /* OverrideLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E3485D277C9BFA00E2E620 /* OverrideLabel.swift */; };
 		10E34860277C9E0800E2E620 /* CHCRForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E3485F277C9E0800E2E620 /* CHCRForm.swift */; };
 		10E34862277C9F2100E2E620 /* CHCRImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E34861277C9F2100E2E620 /* CHCRImage.swift */; };
+		10E34864277CCFB300E2E620 /* Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E34863277CCFB300E2E620 /* Fill.swift */; };
+		10E34866277CCFC800E2E620 /* FillEqually.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E34865277CCFC800E2E620 /* FillEqually.swift */; };
+		10E34868277CCFD600E2E620 /* EqualSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E34867277CCFD600E2E620 /* EqualSpacing.swift */; };
+		10E3486A277CCFF400E2E620 /* EqualCentering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E34869277CCFF400E2E620 /* EqualCentering.swift */; };
+		10E3486C277CD00900E2E620 /* CHRCFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E3486B277CD00900E2E620 /* CHRCFill.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +45,11 @@
 		10E3485D277C9BFA00E2E620 /* OverrideLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideLabel.swift; sourceTree = "<group>"; };
 		10E3485F277C9E0800E2E620 /* CHCRForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHCRForm.swift; sourceTree = "<group>"; };
 		10E34861277C9F2100E2E620 /* CHCRImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHCRImage.swift; sourceTree = "<group>"; };
+		10E34863277CCFB300E2E620 /* Fill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fill.swift; sourceTree = "<group>"; };
+		10E34865277CCFC800E2E620 /* FillEqually.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillEqually.swift; sourceTree = "<group>"; };
+		10E34867277CCFD600E2E620 /* EqualSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualSpacing.swift; sourceTree = "<group>"; };
+		10E34869277CCFF400E2E620 /* EqualCentering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualCentering.swift; sourceTree = "<group>"; };
+		10E3486B277CD00900E2E620 /* CHRCFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHRCFill.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +155,11 @@
 		10E34852277C89F700E2E620 /* Distributions */ = {
 			isa = PBXGroup;
 			children = (
+				10E34863277CCFB300E2E620 /* Fill.swift */,
+				10E34865277CCFC800E2E620 /* FillEqually.swift */,
+				10E34867277CCFD600E2E620 /* EqualSpacing.swift */,
+				10E34869277CCFF400E2E620 /* EqualCentering.swift */,
+				10E3486B277CD00900E2E620 /* CHRCFill.swift */,
 			);
 			path = Distributions;
 			sourceTree = "<group>";
@@ -220,16 +235,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10E3486C277CD00900E2E620 /* CHRCFill.swift in Sources */,
 				10E3484A277C88D200E2E620 /* Factories.swift in Sources */,
 				10E34858277C954200E2E620 /* LayoutMargins.swift in Sources */,
 				10E34854277C8B4F00E2E620 /* BasicAnchors.swift in Sources */,
 				10E3485A277C978600E2E620 /* SpacerViews.swift in Sources */,
+				10E34864277CCFB300E2E620 /* Fill.swift in Sources */,
+				10E34866277CCFC800E2E620 /* FillEqually.swift in Sources */,
 				10E34839277C873700E2E620 /* MainController.swift in Sources */,
 				10E34856277C946B00E2E620 /* SafeAreaGuide.swift in Sources */,
+				10E3486A277CCFF400E2E620 /* EqualCentering.swift in Sources */,
 				10E34862277C9F2100E2E620 /* CHCRImage.swift in Sources */,
 				10E3485C277C996000E2E620 /* ReadebleContentGuide.swift in Sources */,
 				10E3485E277C9BFA00E2E620 /* OverrideLabel.swift in Sources */,
 				10E34835277C873700E2E620 /* AppDelegate.swift in Sources */,
+				10E34868277CCFD600E2E620 /* EqualSpacing.swift in Sources */,
 				10E34860277C9E0800E2E620 /* CHCRForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
