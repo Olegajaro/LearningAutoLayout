@@ -15,7 +15,7 @@ class ReadebleContentGuide: UIViewController {
         setupViews()
     }
     
-    func setupViews() {
+    private func setupViews() {
         navigationItem.title = "Readeble Content Guide"
         
         let label = makeLabel(

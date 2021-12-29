@@ -15,7 +15,7 @@ class SpacerViews: UIViewController {
         setupViews()
     }
     
-    func setupViews() {
+    private func setupViews() {
         navigationItem.title = "Spacer Views"
         
         let leadingGuide = UILayoutGuide()
