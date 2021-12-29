@@ -12,18 +12,45 @@ class CHRCFill: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        setupViews()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setupViews() {
+        navigationItem.title = "CHRC - Fill"
+        
+        let stackView = makeStackView(withOrientation: .vertical)
+        stackView.distribution = .fill
+        
+        let bigLabel = makeLabel(
+            withText: "BIG", size: 128, color: .darkYellow
+        )
+        let medLabel = makeLabel(
+            withText: "MED", size: 64, color: .darkOrange
+        )
+        let smlLabel = makeLabel(
+            withText: "SML", size: 32, color: .darkGreen
+        )
+        
+        stackView.addArrangedSubview(medLabel)
+        stackView.addArrangedSubview(bigLabel) // stuck here for demo purposes...
+        stackView.addArrangedSubview(smlLabel)
+        
+        view.addSubview(stackView)
+        
+        // It's when the stackView is pinned, that the height becomes ambiguous.
+        stackView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor)
+            .isActive = true
+        stackView.leadingAnchor.constraint(equalTo: view.leadingAnchor)
+            .isActive = true
+        stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
+            .isActive = true
+        stackView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
+            .isActive = true
+        
+        // .fill will randomly strech one of the views fill the empty space
+        
+        // But we can control which one it is by choosing which label
+        // we would like to stretch.
+        bigLabel.setContentHuggingPriority(UILayoutPriority(48), for: .vertical)
     }
-    */
-
 }

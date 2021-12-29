@@ -12,18 +12,30 @@ class EqualSpacing: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        setupViews()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setupViews() {
+        navigationItem.title = "Equal Spacing"
+        
+        let stackView = makeStackView(withOrientation: .vertical)
+        stackView.distribution = .equalSpacing
+        
+        stackView.addArrangedSubview(makeLabel(
+            withText: "BIG", size: 128, color: .darkYellow
+        ))
+        stackView.addArrangedSubview(makeLabel(
+            withText: "MED", size: 64, color: .darkOrange
+        ))
+        stackView.addArrangedSubview(makeLabel(
+            withText: "SML", size: 32, color: .darkGreen
+        ))
+        
+        view.addSubview(stackView)
+        
+        stackView.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+            .isActive = true
+        stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+            .isActive = true
     }
-    */
-
 }
