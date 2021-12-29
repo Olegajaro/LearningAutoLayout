@@ -48,6 +48,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         )
         
         let stackViewLabs = [
+            Lab(name: "Custom", viewController: CustomView()),
             Lab(name: "Distributions", viewController: distributionController)
         ]
         
