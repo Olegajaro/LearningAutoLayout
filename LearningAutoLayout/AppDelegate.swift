@@ -19,7 +19,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        window?.rootViewController = UINavigationController(rootViewController: MainViewController())
+        window?.backgroundColor = .white
+        
+        let anchorsLabs = [
+            Lab(name: "Basic Anchors", viewController: BasicAnchors())
+        ]
+        
+        let anchorViewController = MainViewController(labs: anchorsLabs,
+                                                      navBarTitle: "Anchors")
+        
+        let rootLabs = [
+            Lab(name: "Anchors", viewController: anchorViewController)
+        ]
+        
+        let rootViewController = MainViewController(
+            labs: rootLabs, navBarTitle: "Example"
+        )
+        let navigationController = UINavigationController(
+            rootViewController: rootViewController
+        )
+        
+        window?.rootViewController = navigationController
         
         return true
     }
