@@ -1,5 +1,5 @@
 //
-//  MainViewController.swift
+//  MainController.swift
 //  LearningAutoLayout
 //
 //  Created by Олег Федоров on 29.12.2021.
@@ -14,7 +14,7 @@ struct Lab {
 
 private let reuseIdentifier = "Cell"
 
-class MainViewController: UITableViewController {
+class MainController: UITableViewController {
 
     var labs: [Lab]
     var navBarTitle: String
@@ -67,7 +67,7 @@ class MainViewController: UITableViewController {
                             didSelectRowAt indexPath: IndexPath) {
         navigationController?.pushViewController(
             labs[indexPath.row].viewController,
-            animated: true
+            animated: false
         )
     }
 }

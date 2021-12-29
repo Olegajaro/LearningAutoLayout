@@ -22,17 +22,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = .white
         
         let anchorsLabs = [
-            Lab(name: "Basic Anchors", viewController: BasicAnchors())
+            Lab(name: "Basic Anchors", viewController: BasicAnchors()),
+            Lab(name: "Safe Area Guide", viewController: SafeAreaGuide()),
+            Lab(name: "LayoutMargins", viewController: LayoutMargins())
         ]
         
-        let anchorViewController = MainViewController(labs: anchorsLabs,
+        let anchorViewController = MainController(labs: anchorsLabs,
                                                       navBarTitle: "Anchors")
         
         let rootLabs = [
             Lab(name: "Anchors", viewController: anchorViewController)
         ]
         
-        let rootViewController = MainViewController(
+        let rootViewController = MainController(
             labs: rootLabs, navBarTitle: "Example"
         )
         let navigationController = UINavigationController(
