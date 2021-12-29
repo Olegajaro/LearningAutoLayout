@@ -29,6 +29,7 @@
 		10E3486E277CDEC300E2E620 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E3486D277CDEC300E2E620 /* RowView.swift */; };
 		10E34870277CE26200E2E620 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E3486F277CE26200E2E620 /* CustomView.swift */; };
 		10E34872277CE68500E2E620 /* ScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E34871277CE68500E2E620 /* ScrollableView.swift */; };
+		10E34874277CEBF100E2E620 /* PaddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E34873277CEBF100E2E620 /* PaddingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		10E3486D277CDEC300E2E620 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		10E3486F277CE26200E2E620 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		10E34871277CE68500E2E620 /* ScrollableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableView.swift; sourceTree = "<group>"; };
+		10E34873277CEBF100E2E620 /* PaddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				10E3486D277CDEC300E2E620 /* RowView.swift */,
 				10E3486F277CE26200E2E620 /* CustomView.swift */,
 				10E34871277CE68500E2E620 /* ScrollableView.swift */,
+				10E34873277CEBF100E2E620 /* PaddingView.swift */,
 			);
 			name = StackViews;
 			path = "New Group/New Group/StackViews";
@@ -262,6 +265,7 @@
 				10E3485E277C9BFA00E2E620 /* OverrideLabel.swift in Sources */,
 				10E34835277C873700E2E620 /* AppDelegate.swift in Sources */,
 				10E34868277CCFD600E2E620 /* EqualSpacing.swift in Sources */,
+				10E34874277CEBF100E2E620 /* PaddingView.swift in Sources */,
 				10E34860277C9E0800E2E620 /* CHCRForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

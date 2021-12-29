@@ -50,6 +50,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let stackViewLabs = [
             Lab(name: "Custom", viewController: CustomView()),
             Lab(name: "Scrollable", viewController: ScrollableView()),
+            Lab(name: "Padding", viewController: PaddingView()),
             Lab(name: "Distributions", viewController: distributionController)
         ]
         
