@@ -51,6 +51,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             Lab(name: "Custom", viewController: CustomView()),
             Lab(name: "Scrollable", viewController: ScrollableView()),
             Lab(name: "Padding", viewController: PaddingView()),
+            Lab(name: "Spacer", viewController: StackSpacerView()),
             Lab(name: "Distributions", viewController: distributionController)
         ]
         

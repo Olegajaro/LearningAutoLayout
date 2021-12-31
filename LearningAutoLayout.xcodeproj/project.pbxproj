@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		107D6535277F44B50002E12E /* StackSpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107D6534277F44B50002E12E /* StackSpacerView.swift */; };
 		10E34835277C873700E2E620 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E34834277C873700E2E620 /* AppDelegate.swift */; };
 		10E34839277C873700E2E620 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E34838277C873700E2E620 /* MainController.swift */; };
 		10E3483E277C873700E2E620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10E3483D277C873700E2E620 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		107D6534277F44B50002E12E /* StackSpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackSpacerView.swift; sourceTree = "<group>"; };
 		10E34831277C873700E2E620 /* LearningAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E34834277C873700E2E620 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10E34838277C873700E2E620 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				10E3486F277CE26200E2E620 /* CustomView.swift */,
 				10E34871277CE68500E2E620 /* ScrollableView.swift */,
 				10E34873277CEBF100E2E620 /* PaddingView.swift */,
+				107D6534277F44B50002E12E /* StackSpacerView.swift */,
 			);
 			name = StackViews;
 			path = "New Group/New Group/StackViews";
@@ -266,6 +269,7 @@
 				10E34835277C873700E2E620 /* AppDelegate.swift in Sources */,
 				10E34868277CCFD600E2E620 /* EqualSpacing.swift in Sources */,
 				10E34874277CEBF100E2E620 /* PaddingView.swift in Sources */,
+				107D6535277F44B50002E12E /* StackSpacerView.swift in Sources */,
 				10E34860277C9E0800E2E620 /* CHCRForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
