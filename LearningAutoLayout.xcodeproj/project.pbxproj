@@ -11,6 +11,9 @@
 		109AEB092780D88E009C309B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109AEB082780D88E009C309B /* Constants.swift */; };
 		109AEB0B2780DBF7009C309B /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109AEB0A2780DBF7009C309B /* Constraints.swift */; };
 		109AEB0D2780DFFD009C309B /* Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109AEB0C2780DFFD009C309B /* Visibility.swift */; };
+		109AEB0F2780E598009C309B /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109AEB0E2780E598009C309B /* RedView.swift */; };
+		109AEB112780E5A2009C309B /* BlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109AEB102780E5A2009C309B /* BlueView.swift */; };
+		109AEB132780E62B009C309B /* OrientationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109AEB122780E62B009C309B /* OrientationView.swift */; };
 		10E34835277C873700E2E620 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E34834277C873700E2E620 /* AppDelegate.swift */; };
 		10E34839277C873700E2E620 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E34838277C873700E2E620 /* MainController.swift */; };
 		10E3483E277C873700E2E620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10E3483D277C873700E2E620 /* Assets.xcassets */; };
@@ -41,6 +44,9 @@
 		109AEB082780D88E009C309B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		109AEB0A2780DBF7009C309B /* Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
 		109AEB0C2780DFFD009C309B /* Visibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visibility.swift; sourceTree = "<group>"; };
+		109AEB0E2780E598009C309B /* RedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RedView.swift; path = LearningAutoLayout/AdaptingLayouts/RedView.swift; sourceTree = SOURCE_ROOT; };
+		109AEB102780E5A2009C309B /* BlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BlueView.swift; path = LearningAutoLayout/AdaptingLayouts/BlueView.swift; sourceTree = SOURCE_ROOT; };
+		109AEB122780E62B009C309B /* OrientationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OrientationView.swift; path = LearningAutoLayout/AdaptingLayouts/OrientationView.swift; sourceTree = SOURCE_ROOT; };
 		10E34831277C873700E2E620 /* LearningAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E34834277C873700E2E620 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10E34838277C873700E2E620 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
@@ -157,6 +163,9 @@
 		10E3484E277C893D00E2E620 /* Orientations */ = {
 			isa = PBXGroup;
 			children = (
+				109AEB122780E62B009C309B /* OrientationView.swift */,
+				109AEB0E2780E598009C309B /* RedView.swift */,
+				109AEB102780E5A2009C309B /* BlueView.swift */,
 			);
 			name = Orientations;
 			path = "New Group/Orientations";
@@ -261,10 +270,13 @@
 			files = (
 				10E3486C277CD00900E2E620 /* CHRCFill.swift in Sources */,
 				109AEB092780D88E009C309B /* Constants.swift in Sources */,
+				109AEB0F2780E598009C309B /* RedView.swift in Sources */,
 				10E3484A277C88D200E2E620 /* Factories.swift in Sources */,
+				109AEB112780E5A2009C309B /* BlueView.swift in Sources */,
 				10E34858277C954200E2E620 /* LayoutMargins.swift in Sources */,
 				10E34870277CE26200E2E620 /* CustomView.swift in Sources */,
 				10E34872277CE68500E2E620 /* ScrollableView.swift in Sources */,
+				109AEB132780E62B009C309B /* OrientationView.swift in Sources */,
 				10E34854277C8B4F00E2E620 /* BasicAnchors.swift in Sources */,
 				10E3485A277C978600E2E620 /* SpacerViews.swift in Sources */,
 				10E34864277CCFB300E2E620 /* Fill.swift in Sources */,

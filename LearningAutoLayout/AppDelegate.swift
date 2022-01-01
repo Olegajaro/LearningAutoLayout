@@ -55,6 +55,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             Lab(name: "Distributions", viewController: distributionController)
         ]
         
+        let orientationsLabs = [
+            Lab(name: "Orientation", viewController: OrientationView())
+        ]
+        
         let adaptingLayoutLabs = [
             Lab(name: "Constants", viewController: Constants()),
             Lab(name: "Constraints", viewController: Constraints()),
@@ -69,11 +73,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                                                  navBarTitle: "Stack Views")
         let adaptingLayoutsController = MainController(labs: adaptingLayoutLabs,
                                                        navBarTitle: "Adapting Layouts")
+        let orientaionsViewController = MainController(labs: orientationsLabs,
+                                                       navBarTitle: "Orientations")
         
         let rootLabs = [
             Lab(name: "Anchors", viewController: anchorViewController),
             Lab(name: "Intrinsic Content Size", viewController: intrinsicViewContoller),
             Lab(name: "Stack Views", viewController: stackViewController),
+            Lab(name: "Orientaions", viewController: orientaionsViewController),
             Lab(name: "Adapting Layouts", viewController: adaptingLayoutsController)
         ]
         
