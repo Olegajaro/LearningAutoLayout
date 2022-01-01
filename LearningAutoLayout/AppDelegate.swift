@@ -55,17 +55,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             Lab(name: "Distributions", viewController: distributionController)
         ]
         
+        let adaptingLayoutLabs = [
+            Lab(name: "Constants", viewController: Constants()),
+            Lab(name: "Constraints", viewController: Constraints()),
+            Lab(name: "Visibility", viewController: Visibility())
+        ]
+        
         let anchorViewController = MainController(labs: anchorsLabs,
                                                       navBarTitle: "Anchors")
         let intrinsicViewContoller = MainController(labs: intrinsicLabs,
                                                     navBarTitle: "Intrinsic Content Size")
         let stackViewController = MainController(labs: stackViewLabs,
                                                  navBarTitle: "Stack Views")
+        let adaptingLayoutsController = MainController(labs: adaptingLayoutLabs,
+                                                       navBarTitle: "Adapting Layouts")
         
         let rootLabs = [
             Lab(name: "Anchors", viewController: anchorViewController),
             Lab(name: "Intrinsic Content Size", viewController: intrinsicViewContoller),
-            Lab(name: "Stack Views", viewController: stackViewController)
+            Lab(name: "Stack Views", viewController: stackViewController),
+            Lab(name: "Adapting Layouts", viewController: adaptingLayoutsController)
         ]
         
         let rootViewController = MainController(

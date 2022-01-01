@@ -59,6 +59,14 @@ func makeButton(withText text: String) -> UIButton {
     return button
 }
 
+func makeButton(withText text: String, size: CGFloat = 18, color: UIColor = .blue) -> UIButton {
+    let button = makeButton(withText: text)
+    button.backgroundColor = color
+    button.titleLabel?.font = UIFont.systemFont(ofSize: size)
+    
+    return button
+}
+
 func makeButton(withText text: String, color: UIColor) -> UIButton {
     let button = makeButton(withText: text)
     button.backgroundColor = color
