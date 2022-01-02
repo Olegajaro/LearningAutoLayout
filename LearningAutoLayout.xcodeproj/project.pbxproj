@@ -14,6 +14,10 @@
 		109AEB0F2780E598009C309B /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109AEB0E2780E598009C309B /* RedView.swift */; };
 		109AEB112780E5A2009C309B /* BlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109AEB102780E5A2009C309B /* BlueView.swift */; };
 		109AEB132780E62B009C309B /* OrientationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109AEB122780E62B009C309B /* OrientationView.swift */; };
+		10D40B4C2781962D00DB7FE4 /* AdjustConstaintsBlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D40B4B2781962D00DB7FE4 /* AdjustConstaintsBlueView.swift */; };
+		10D40B4E2781964600DB7FE4 /* AdjustConstraintsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D40B4D2781964600DB7FE4 /* AdjustConstraintsView.swift */; };
+		10D40B5127819E3400DB7FE4 /* AdjustSpacersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D40B5027819E3400DB7FE4 /* AdjustSpacersView.swift */; };
+		10D40B5327819E4B00DB7FE4 /* AdjustSpacersBlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D40B5227819E4A00DB7FE4 /* AdjustSpacersBlueView.swift */; };
 		10E34835277C873700E2E620 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E34834277C873700E2E620 /* AppDelegate.swift */; };
 		10E34839277C873700E2E620 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E34838277C873700E2E620 /* MainController.swift */; };
 		10E3483E277C873700E2E620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10E3483D277C873700E2E620 /* Assets.xcassets */; };
@@ -47,6 +51,10 @@
 		109AEB0E2780E598009C309B /* RedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RedView.swift; path = LearningAutoLayout/AdaptingLayouts/RedView.swift; sourceTree = SOURCE_ROOT; };
 		109AEB102780E5A2009C309B /* BlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BlueView.swift; path = LearningAutoLayout/AdaptingLayouts/BlueView.swift; sourceTree = SOURCE_ROOT; };
 		109AEB122780E62B009C309B /* OrientationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OrientationView.swift; path = LearningAutoLayout/AdaptingLayouts/OrientationView.swift; sourceTree = SOURCE_ROOT; };
+		10D40B4B2781962D00DB7FE4 /* AdjustConstaintsBlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustConstaintsBlueView.swift; sourceTree = "<group>"; };
+		10D40B4D2781964600DB7FE4 /* AdjustConstraintsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustConstraintsView.swift; sourceTree = "<group>"; };
+		10D40B5027819E3400DB7FE4 /* AdjustSpacersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustSpacersView.swift; sourceTree = "<group>"; };
+		10D40B5227819E4A00DB7FE4 /* AdjustSpacersBlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustSpacersBlueView.swift; sourceTree = "<group>"; };
 		10E34831277C873700E2E620 /* LearningAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E34834277C873700E2E620 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10E34838277C873700E2E620 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
@@ -85,6 +93,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10D40B4A2781959A00DB7FE4 /* AdjustConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				10D40B4B2781962D00DB7FE4 /* AdjustConstaintsBlueView.swift */,
+				10D40B4D2781964600DB7FE4 /* AdjustConstraintsView.swift */,
+			);
+			path = AdjustConstraints;
+			sourceTree = "<group>";
+		};
+		10D40B4F27819E1500DB7FE4 /* AdjustSpacers */ = {
+			isa = PBXGroup;
+			children = (
+				10D40B5027819E3400DB7FE4 /* AdjustSpacersView.swift */,
+				10D40B5227819E4A00DB7FE4 /* AdjustSpacersBlueView.swift */,
+			);
+			path = AdjustSpacers;
+			sourceTree = "<group>";
+		};
 		10E34828277C873700E2E620 = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +192,8 @@
 				109AEB122780E62B009C309B /* OrientationView.swift */,
 				109AEB0E2780E598009C309B /* RedView.swift */,
 				109AEB102780E5A2009C309B /* BlueView.swift */,
+				10D40B4F27819E1500DB7FE4 /* AdjustSpacers */,
+				10D40B4A2781959A00DB7FE4 /* AdjustConstraints */,
 			);
 			name = Orientations;
 			path = "New Group/Orientations";
@@ -289,6 +317,10 @@
 				109AEB0B2780DBF7009C309B /* Constraints.swift in Sources */,
 				10E3485C277C996000E2E620 /* ReadebleContentGuide.swift in Sources */,
 				10E3485E277C9BFA00E2E620 /* OverrideLabel.swift in Sources */,
+				10D40B5127819E3400DB7FE4 /* AdjustSpacersView.swift in Sources */,
+				10D40B4C2781962D00DB7FE4 /* AdjustConstaintsBlueView.swift in Sources */,
+				10D40B4E2781964600DB7FE4 /* AdjustConstraintsView.swift in Sources */,
+				10D40B5327819E4B00DB7FE4 /* AdjustSpacersBlueView.swift in Sources */,
 				10E34835277C873700E2E620 /* AppDelegate.swift in Sources */,
 				109AEB0D2780DFFD009C309B /* Visibility.swift in Sources */,
 				10E34868277CCFD600E2E620 /* EqualSpacing.swift in Sources */,

@@ -56,7 +56,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         ]
         
         let orientationsLabs = [
-            Lab(name: "Orientation", viewController: OrientationView())
+            Lab(name: "Detect Orientation", viewController: OrientationView()),
+            Lab(name: "Adjust with constraints", viewController: AdjustConstraintsView()),
+            Lab(name: "Adjust with spacers", viewController: AdjustSpacersView())
         ]
         
         let adaptingLayoutLabs = [
