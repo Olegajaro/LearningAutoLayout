@@ -4,7 +4,7 @@ ____
 
 ## Описание 
 
-+ Примеры расположения и закрепления UI элементов с помощью AutoLayout. 
++ Проект состоит из примеров применения AutoLayout для размещения элементов UI на экране.  
 
 ![screen1](/Screenshots/AutoLayout1.png) ![screen2](/Screenshots/AutoLayout2.png)
 
